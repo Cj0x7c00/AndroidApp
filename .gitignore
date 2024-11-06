@@ -1,4 +1,11 @@
-./.vs
-./bin
-./bin-int
+/.vs
+/bin
+/bin-int
 /bin/Debug-windows-x86_64/App/App.exe
+/.vs/AndroidApp/FileContentIndex/cd34e39e-52ec-4d72-86c5-1cd0d4169d54.vsidx
+/.vs/AndroidApp/FileContentIndex/66466de8-e31f-4f5a-9838-1153021adcd3.vsidx
+/.vs/AndroidApp/FileContentIndex/097c4968-f740-4abf-bb1d-b888ab1aa465.vsidx
+/bin/Debug-windows-x86_64/App/App.pdb
+*.sln
+*.filters
+/App/App.vcxproj
