@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Yamato\\source\\repos\\AndroidApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{46D6870B-B2DF-877C-3B5B-9E7CA763937C}|App\\App.vcxproj|C:\\Users\\Yamato\\source\\repos\\AndroidApp\\App\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{46D6870B-B2DF-877C-3B5B-9E7CA763937C}|App\\App.vcxproj|solutionrelative:App\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\Yamato\\source\\repos\\AndroidApp\\App\\Source.cpp",
+              "RelativeDocumentMoniker": "App\\Source.cpp",
+              "ToolTip": "C:\\Users\\Yamato\\source\\repos\\AndroidApp\\App\\Source.cpp",
+              "RelativeToolTip": "App\\Source.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-06T00:47:26.015Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
