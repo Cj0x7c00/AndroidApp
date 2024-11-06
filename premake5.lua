@@ -20,6 +20,7 @@ workspace "AndroidApp"
 
     group "Dependencies"
         include "GLFW/glfw.lua"
+        include "raylib/ray.lua"
     group ""
 
     group "App"
