@@ -1,28 +1,32 @@
-workspace "AndroidApp"
+workspace "AnvilWorkspace"
 
     architecture "x64"
-    startproject "App" 
+    startproject "Forge" 
     
 
     configurations 
     {
+        "DebugG",
         "Debug",
         "Release"
     }
 
---    VULKAN_SDK = os.getenv("VULKAN_SDK")
---    print("Vulkan SDK: ", VULKAN_SDK)
-      outdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
---    root_dir = os.getcwd() .. "/"
---    print("Root Directory: ", root_dir)
+    VULKAN_SDK = os.getenv("VULKAN_SDK")
+    print("Vulkan SDK: ", VULKAN_SDK)
+    outdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
+    ROOTDIR = os.getcwd() .. "/"
+    print("Root Directory: ", root_dir)
 --    vendor_dir = root_dir .. "Anvil/include/"
 --    print("Vendor Directory: ", vendor_dir)
 
     group "Dependencies"
-        include "GLFW/glfw.lua"
-        include "raylib/ray.lua"
+        include "AnvilEngine/vendor/GLFW/glfw.lua"
     group ""
 
-    group "App"
-        include "App.lua"
+    group "Engine"
+        include "AnvilEngine/Anvil.lua"
+    group ""
+
+    group "Editor"
+        include "Forge/Forge.lua"
     group ""
