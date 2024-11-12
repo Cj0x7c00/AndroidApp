@@ -38,4 +38,9 @@ namespace anv {
 		return glfwWindowShouldClose(m_WinPtr);
 	}
 
+	Context* Window::GetContext()
+	{
+		return m_Context;
+	}
+
 }

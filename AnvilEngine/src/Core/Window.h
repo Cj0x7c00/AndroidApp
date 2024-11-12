@@ -1,6 +1,13 @@
 #pragma once
-#include "../Render/Context/Context.h"
 
+/**
+* Note:
+* OS window abstraction will happen within glfw.
+* idc about OS window abstraction. i care about
+* Graphics API abstraction and modularity.
+**/
+
+#include "../Render/Context/Context.h"
 #include <string>
 
 struct GLFWwindow;
@@ -22,6 +29,8 @@ namespace anv {
 
 		void OnUpdate();
 		bool ShouldClose();
+
+		Context* GetContext();
 
 	private:
 		GLFWwindow* m_WinPtr = nullptr;
